@@ -22,16 +22,53 @@
         </div>
         <div class="content">
             <div class="disclaimer">
-               <p>
-                This is not a real online service! You know you need something <br>
-                like this in your life to help you realize your deepest dreams. <br>
-                Sign up <em>now</em> to get started.
-               </p>
-               <p>You <em>know</em> you want to.</p>
+                <p>
+                    This is not a real online service! You know you need something <br>
+                    like this in your life to help you realize your deepest dreams. <br>
+                    Sign up <em>now</em> to get started.
+                </p>
+                <p>You <em>know</em> you want to.</p>
             </div>
-            <form action="/">
-                <Legend>Let's do this!</Legend>
-            </form>
+            <div class="actual-form">
+                <form action="/">
+                    <fieldset>
+                        <Legend>Let's do this!</Legend>
+
+                        <div class="input-grid">
+                            <p>
+                                <label for="first-name">FIRST NAME</label>
+                                <input type="text" name="first-name" id="first-name" title="enter your first name here"
+                                    required>
+                            </p>
+                            <p>
+                                <label for="last-name">LAST NAME</label>
+                                <input type="text" name="last-name" id="last-name" title="enter your last name here"
+                                    required>
+                            </p>
+                            <p>
+                                <label for="user-email">EMAIL</label>
+                                <input type="email" name="user-email" id="user-email" title="enter your email here"
+                                    required>
+                            </p>
+                            <p>
+                                <label for="user-phone-number">PHONE NUMBER</label>
+                                <input type="text" name="user-phone-number" id="user-phone-number"
+                                    title="enter your phone number here" minlength="10" maxlength="10" required>
+                            </p>
+                            <p>
+                                <label for="user-password">PASSWORD</label>
+                                <input type="password" name="user-password" id="user-password"
+                                    title="enter your password here" required>
+                            </p>
+                            <p>
+                                <label for="confirm-password">CONFIRM PASSWORD</label>
+                                <input type="password" name="confirm-password" id="confirm-password"
+                                    title="confirm your password" required>
+                            </p>
+                        </div>
+                    </fieldset>
+                </form>
+            </div>
         </div>
     </div>
 </body>
