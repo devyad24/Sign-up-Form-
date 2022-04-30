@@ -1,6 +1,6 @@
 @font-face {
     font-family: 'Old Japanese';
-    src: url(pageFont.otf);
+    src: url(fonts/pageFont.otf);
 }
 :root{
     --logo-outer-shadow:#f08ab8 ; 
